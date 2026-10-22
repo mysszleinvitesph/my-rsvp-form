@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP Embed</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: transparent;
+        }
+        /* Using object/embed can sometimes bypass strict framing limits depending on script output, 
+           or you can use a seamless full-screen wrapper */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- This embeds your existing Apps Script web app seamlessly -->
+    <iframe src="https://script.google.com/macros/s/AKfycbzb3YvlD1vWl7rQ3FtRgewvDwlLpwLvnzf8OBXNtIZkc01MYp6gk7VEf5H-MUwmX2P1/exec" title="Proposal Form"></iframe>
+
+</body>
+</html>
